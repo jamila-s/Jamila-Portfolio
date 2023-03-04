@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "PT Sans Narrow", sans-serif;
+}
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: black;
+}
+
+a:active {
+  -webkit-text-decoration: underline white ipk solid;
+          text-decoration: underline white ipk solid;
+}
+
+@keyframes logo-animation {
+  0% {
+    left: -35%;
+  }
+  50% {
+    left: 0%;
+  }
+}
+.hero__logo {
+  display: flex;
+  width: 100%;
+}
+.hero__logo img {
+  width: 30rem;
+  justify-content: center;
+  margin: auto;
+  animation: logo-animation 7s ease-out;
+  position: relative;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 50px;
+  background-color: orange;
+  width: 100%;
+  font-size: 2rem;
+}
+.navbar a {
+  display: inline-block;
+  list-style: none;
+  text-decoration: none;
+}
+.navbar__links {
+  display: flex;
+  gap: 1em;
+  font-size: 18px;
+}/*# sourceMappingURL=main.css.map */

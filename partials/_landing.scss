@@ -1,0 +1,56 @@
+
+    @keyframes logo-animation {
+        0% {left: -35%; }
+        50% {left: 0%}
+    }
+
+.hero {
+   &__logo {
+    display: flex;
+    width: 100%;
+   
+
+    img{
+        width: 30rem;
+        justify-content: center;
+        margin: auto;
+        animation: logo-animation 7s ease-out;
+        position: relative;
+   
+        
+    }
+    }
+}
+
+
+    // @keyframes change-color {
+    //     0% {background-color: pink; }
+    //     25% {background-color: purple;}
+    //     50% {background-color: red;}
+    //     100% {background-color: orange; }
+    // }
+
+    // button {
+    //     margin: 20px 30px;
+    //     color: #ffffff;
+    //     background-color: pink;
+    //     font-size: 50px;
+    //     animation-name: change-color;
+    //     animation-duration: 10s;
+    // }
+
+   
+
+    // .happy {
+
+    //     @-webkit-keyframes happy {
+    //         0% {background-color: pink; }
+    //         25% {background-color: purple;}
+    //         50% {background-color: red;}
+    //         100% {background-color: orange; }
+    //     }
+    //     -webkit-animation: happy 5s infinite;
+    // }
+
+
+
